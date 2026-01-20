@@ -57,6 +57,19 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Industrial custom colors
+        steel: {
+          DEFAULT: "hsl(var(--steel))",
+          light: "hsl(var(--steel-light))",
+        },
+        industrial: {
+          dark: "hsl(var(--industrial-dark))",
+          darker: "hsl(var(--industrial-darker))",
+        },
+        spark: {
+          orange: "hsl(var(--spark-orange))",
+          yellow: "hsl(var(--spark-yellow))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
