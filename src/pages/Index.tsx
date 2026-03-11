@@ -64,7 +64,7 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <ScrollReveal variant="fade-up">
-              <span className="inline-block px-4 py-2 bg-secondary/20 text-secondary rounded-full text-sm font-medium mb-6">
+              <span className="inline-block px-4 py-2 bg-secondary/20 text-secondary-foreground rounded-full text-sm font-medium mb-6 border border-secondary/40">
                 Engineering Strength. Manufacturing Excellence.
               </span>
             </ScrollReveal>
