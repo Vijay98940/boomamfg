@@ -75,7 +75,7 @@ export default function Index() {
               </h1>
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={300}>
-              <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-lg sm:text-xl text-primary-foreground/80 mb-8 leading-relaxed">
                 From concept to production, Booma delivers precision tooling solutions that power 
                 manufacturing operations worldwide. Engineering Strength. Manufacturing Excellence.
               </p>
