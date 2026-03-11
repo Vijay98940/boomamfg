@@ -170,7 +170,7 @@ export default function Index() {
                     <h3 className="text-xl font-semibold text-card-foreground mb-2">
                       {product.title}
                     </h3>
-                    <p className="text-muted-foreground">{product.description}</p>
+                    <p className="text-foreground/70">{product.description}</p>
                   </div>
                 </div>
               </ScrollReveal>
