@@ -2,81 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Industrial Manufacturing Design System
-   Dark, professional aesthetic with orange/amber accents
-   All colors in HSL format
+/* Booma Manufacturing Brand Design System
+   Primary: Deep Navy #223359
+   Secondary: Vibrant Blue #2e6fb4
+   Background: Light Gray #E6E6E9
+   Typography: Montserrat + Roboto
 */
 
 @layer base {
   :root {
-    --background: 220 20% 97%;
-    --foreground: 220 25% 10%;
+    --background: 240 4% 90%;
+    --foreground: 222 44% 24%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 10%;
+    --card-foreground: 222 44% 24%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 10%;
+    --popover-foreground: 222 44% 24%;
 
-    --primary: 25 95% 53%;
+    --primary: 222 44% 24%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 20% 18%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 211 59% 44%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 15% 92%;
-    --muted-foreground: 220 10% 40%;
+    --muted: 240 4% 95%;
+    --muted-foreground: 222 20% 45%;
 
-    --accent: 35 100% 50%;
-    --accent-foreground: 220 25% 10%;
+    --accent: 211 59% 44%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 85%;
-    --input: 220 15% 85%;
-    --ring: 25 95% 53%;
+    --border: 222 15% 82%;
+    --input: 222 15% 82%;
+    --ring: 211 59% 44%;
 
     --radius: 0.5rem;
 
-    /* Custom industrial tokens */
+    /* Custom brand tokens */
+    --booma-navy: 222 44% 24%;
+    --booma-blue: 211 59% 44%;
+    --booma-blue-light: 211 59% 60%;
+    --booma-dark: 222 44% 12%;
+    --booma-darker: 222 50% 6%;
     --steel: 220 10% 45%;
     --steel-light: 220 10% 65%;
-    --industrial-dark: 220 25% 8%;
-    --industrial-darker: 220 30% 5%;
-    --spark-orange: 25 95% 53%;
-    --spark-yellow: 45 100% 55%;
-    --metal-shine: 220 15% 75%;
   }
 
   .dark {
-    --background: 220 25% 8%;
+    --background: 222 44% 8%;
     --foreground: 210 40% 98%;
 
-    --card: 220 25% 12%;
+    --card: 222 44% 12%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 220 25% 12%;
+    --popover: 222 44% 12%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 25 95% 53%;
+    --primary: 211 59% 44%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 20% 20%;
+    --secondary: 222 44% 20%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 20% 18%;
+    --muted: 222 30% 18%;
     --muted-foreground: 220 10% 60%;
 
-    --accent: 35 100% 50%;
+    --accent: 211 59% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 20% 20%;
-    --input: 220 20% 20%;
-    --ring: 25 95% 53%;
+    --border: 222 30% 20%;
+    --input: 222 30% 20%;
+    --ring: 211 59% 44%;
   }
 }
 
@@ -87,6 +89,11 @@
 
   body {
     @apply bg-background text-foreground antialiased;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
   }
 
   html {
@@ -100,7 +107,7 @@
   }
 
   .industrial-shadow {
-    box-shadow: 0 10px 40px -10px hsl(var(--industrial-dark) / 0.4);
+    box-shadow: 0 10px 40px -10px hsl(var(--booma-dark) / 0.4);
   }
 
   .metal-texture {
