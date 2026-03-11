@@ -60,7 +60,7 @@ export default function About() {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Founded by master toolmaker John Anderson in 1985, PrecisionTool began 
+                    Founded in 1985, Booma Manufacturing began 
                     as a small shop with a big vision: to deliver precision tooling solutions 
                     that exceed expectations.
                   </p>

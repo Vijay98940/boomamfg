@@ -76,8 +76,8 @@ export default function Index() {
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={300}>
               <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-                From concept to production, we deliver precision tooling solutions that power 
-                manufacturing operations worldwide. Over 40 years of expertise in tool and die making.
+                From concept to production, Booma delivers precision tooling solutions that power 
+                manufacturing operations worldwide. Engineering Strength. Manufacturing Excellence.
               </p>
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={450}>
