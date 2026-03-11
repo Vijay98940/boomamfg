@@ -126,7 +126,7 @@ export default function Index() {
                   <h3 className="text-xl font-semibold text-card-foreground mb-2">
                     {feature.title}
                   </h3>
-                  <p className="text-muted-foreground">{feature.description}</p>
+                  <p className="text-foreground/70">{feature.description}</p>
                 </div>
               </ScrollReveal>
             ))}
