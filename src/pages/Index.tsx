@@ -107,7 +107,7 @@ export default function Index() {
           <ScrollReveal variant="fade-up">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-                Why Choose PrecisionTool?
+                Why Choose Booma?
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                 We combine traditional craftsmanship with modern technology to deliver 
