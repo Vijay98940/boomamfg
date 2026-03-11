@@ -102,7 +102,7 @@ export default function About() {
               <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
                 Our Journey
               </h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              <p className="text-primary-foreground/80 text-lg max-w-2xl mx-auto">
                 Key milestones that shaped our growth and success.
               </p>
             </div>

@@ -121,7 +121,7 @@ export default function Products() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal variant="fade-up">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Need a Similar Solution?</h2>
-            <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
               Our engineering team is ready to develop custom tooling solutions for your 
               specific manufacturing requirements.
             </p>

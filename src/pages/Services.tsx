@@ -150,7 +150,7 @@ export default function Services() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal variant="fade-up">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Have a Project in Mind?</h2>
-            <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
               Let's discuss how our services can help bring your manufacturing vision to life.
             </p>
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-lg">
