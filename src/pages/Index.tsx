@@ -186,7 +186,7 @@ export default function Index() {
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
               Ready to Start Your Project?
             </h2>
-            <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
+            <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto">
               Contact us today to discuss your tooling requirements. Our engineering 
               team is ready to help bring your ideas to life.
             </p>
