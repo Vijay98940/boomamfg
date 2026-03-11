@@ -64,8 +64,8 @@ export default function Index() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <ScrollReveal variant="fade-up">
-              <span className="inline-block px-4 py-2 bg-primary/20 text-primary rounded-full text-sm font-medium mb-6">
-                Precision Tool & Die Manufacturing
+              <span className="inline-block px-4 py-2 bg-secondary/20 text-secondary rounded-full text-sm font-medium mb-6">
+                Engineering Strength. Manufacturing Excellence.
               </span>
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={150}>
@@ -76,8 +76,8 @@ export default function Index() {
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={300}>
               <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-                From concept to production, we deliver precision tooling solutions that power 
-                manufacturing operations worldwide. Over 40 years of expertise in tool and die making.
+                From concept to production, Booma delivers precision tooling solutions that power 
+                manufacturing operations worldwide. Engineering Strength. Manufacturing Excellence.
               </p>
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={450}>
@@ -107,7 +107,7 @@ export default function Index() {
           <ScrollReveal variant="fade-up">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-                Why Choose PrecisionTool?
+                Why Choose Booma?
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                 We combine traditional craftsmanship with modern technology to deliver 

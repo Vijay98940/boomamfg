@@ -66,7 +66,7 @@ export default function Contact() {
                   {[
                     { icon: MapPin, title: "Address", content: <>123 Industrial Boulevard<br />Manufacturing City, MC 12345<br />United States</> },
                     { icon: Phone, title: "Phone", content: <>Main: (555) 123-4567<br />Fax: (555) 123-4568</> },
-                    { icon: Mail, title: "Email", content: <>General: info@precisiontool.com<br />Sales: sales@precisiontool.com</> },
+                    { icon: Mail, title: "Email", content: <>General: info@booma.com<br />Sales: sales@booma.com</> },
                     { icon: Clock, title: "Business Hours", content: <>Monday - Friday: 7:00 AM - 5:00 PM<br />Saturday: 8:00 AM - 12:00 PM<br />Sunday: Closed</> },
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-4">

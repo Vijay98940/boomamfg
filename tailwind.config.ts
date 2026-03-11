@@ -57,18 +57,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // Industrial custom colors
+        // Booma brand colors
         steel: {
           DEFAULT: "hsl(var(--steel))",
           light: "hsl(var(--steel-light))",
         },
-        industrial: {
-          dark: "hsl(var(--industrial-dark))",
-          darker: "hsl(var(--industrial-darker))",
-        },
-        spark: {
-          orange: "hsl(var(--spark-orange))",
-          yellow: "hsl(var(--spark-yellow))",
+        booma: {
+          navy: "hsl(var(--booma-navy))",
+          blue: "hsl(var(--booma-blue))",
+          "blue-light": "hsl(var(--booma-blue-light))",
+          dark: "hsl(var(--booma-dark))",
+          darker: "hsl(var(--booma-darker))",
         },
       },
       borderRadius: {
