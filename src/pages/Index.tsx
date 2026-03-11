@@ -109,7 +109,7 @@ export default function Index() {
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
                 Why Choose Booma?
               </h2>
-              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              <p className="text-foreground/70 text-lg max-w-2xl mx-auto">
                 We combine traditional craftsmanship with modern technology to deliver 
                 unmatched precision and reliability.
               </p>
