@@ -143,7 +143,7 @@ export default function Index() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-2">
                   Featured Products
                 </h2>
-                <p className="text-muted-foreground">
+                 <p className="text-foreground/70">
                   Explore our precision-crafted tooling solutions.
                 </p>
               </div>
