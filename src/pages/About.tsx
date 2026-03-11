@@ -40,9 +40,9 @@ export default function About() {
             </ScrollReveal>
             <ScrollReveal variant="fade-up" delay={300}>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                For over four decades, PrecisionTool has been at the forefront of tool and die 
-                manufacturing, combining traditional craftsmanship with cutting-edge technology 
-                to deliver exceptional results.
+                Booma Manufacturing is an integrated engineering and manufacturing company 
+                specializing in precision components and assemblies, combining traditional 
+                craftsmanship with cutting-edge technology to deliver exceptional results.
               </p>
             </ScrollReveal>
           </div>
